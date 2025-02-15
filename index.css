@@ -1,0 +1,287 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(139, 43, 43);
+}
+
+.container{
+    position: relative;
+}
+.heading{
+    color: bisque;
+    font-size: 50px;
+    margin: 0px 10px;
+    font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+
+}
+
+.sub{
+    color: bisque;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 5px;
+  word-spacing: 3px;
+
+}
+
+.sub1{
+  color: bisque;
+    text-transform: uppercase;
+    font-family: "Oswald", serif;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 2px;
+  font-size: 18px;
+  display: grid;
+  place-content: center;
+  margin-top: 55px;
+}
+
+
+
+.bookmark{
+    border: 1px solid rgb(211, 104, 104);
+    height: 62rem;
+    width: 200px;
+    margin: 20px;
+    background-color: rgb(211, 104, 104);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+}
+
+.days{
+    color: bisque;
+    overflow: visible; 
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 128px;
+    justify-content: space-evenly;
+    margin: 50px;
+    font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+.box{
+    border: 2px solid bisque;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    
+}
+
+.calender{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 130px;
+    
+    
+}
+
+.text{
+    color: bisque;
+    display: flex;
+    justify-content: center;
+     font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin-top: 50px;
+  padding: 5px 0px;
+
+
+}
+
+.calender2{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 20px;
+}
+
+.text1{
+    color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  margin: 30px;  
+}
+
+
+
+.anchor{
+  color: bisque;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+  
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .days {
+    gap: 90px;
+    font-size: 28px;
+  }
+
+  .box {
+    height: 120px;
+    width: 120px;
+  }
+
+  .anchor {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .days {
+    gap: 70px;
+    font-size: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .calender, .calender2 {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .box {
+    height: 100px;
+    width: 100px;
+  }
+
+  .text, .sub1 {
+    font-size: 14px;
+  }
+
+  .anchor {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .sub {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .days {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bookmark {
+    width: 150px;
+    height: 40rem;
+  }
+
+  .box {
+    height: 80px;
+    width: 80px;
+  }
+
+  .text, .sub1 {
+    font-size: 12px;
+  }
+
+  .anchor {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    font-size: 28px;
+  }
+
+  .sub {
+    font-size: 12px;
+    word-spacing: normal;
+  }
+
+  .bookmark {
+    width: 120px;
+    height: 35rem;
+  }
+
+  .calender, .calender2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    height: 70px;
+    width: 70px;
+  }
+
+  .text, .sub1 {
+    font-size: 10px;
+  }
+
+  .anchor {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .days {
+    font-size: 40px;
+    gap: 200px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .box {
+    height: 180px;
+    width: 180px;
+  }
+
+  .text, .sub1 {
+    font-size: 24px;
+  }
+
+  .anchor {
+    font-size: 100px;
+  }
+}
