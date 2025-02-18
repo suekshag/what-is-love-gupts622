@@ -81,6 +81,28 @@ font-family: "EB Garamond", serif;
   font-weight: 400;
 }
 
+@media only screen and (max-width:800px) { 
+  .heading{
+    font-size: 30px;
+  }
+
+  .subhead{
+    font-size: 20px;
+  }
+
+  img{
+    height: 200px;
+    width: 300px;
+  }
+  .para{
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .button{
+    font-size: 10px;
+  }
+}
 
 /*!
 Animate.css - http://daneden.me/animate

@@ -146,142 +146,27 @@ body{
   
 }
 
-@media screen and (max-width: 1200px) {
+@media only screen and (max-width:800px){
   .days {
-    gap: 90px;
-    font-size: 28px;
+    gap: 2rem;
+    font-size: 20px;
   }
 
   .box {
     height: 120px;
     width: 120px;
+    border: solid bisque 0.9px;
+    padding: 2%;
   }
 
+  .bookmark {
+    left: 0;
+    margin-left: -0.2rem;
+  }
   .anchor {
     font-size: 60px;
   }
+
+
 }
 
-@media screen and (max-width: 992px) {
-  .days {
-    gap: 70px;
-    font-size: 24px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .calender, .calender2 {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .box {
-    height: 100px;
-    width: 100px;
-  }
-
-  .text, .sub1 {
-    font-size: 14px;
-  }
-
-  .anchor {
-    font-size: 50px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .heading {
-    font-size: 36px;
-    text-align: center;
-  }
-
-  .sub {
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .days {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .bookmark {
-    width: 150px;
-    height: 40rem;
-  }
-
-  .box {
-    height: 80px;
-    width: 80px;
-  }
-
-  .text, .sub1 {
-    font-size: 12px;
-  }
-
-  .anchor {
-    font-size: 40px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .heading {
-    font-size: 28px;
-  }
-
-  .sub {
-    font-size: 12px;
-    word-spacing: normal;
-  }
-
-  .bookmark {
-    width: 120px;
-    height: 35rem;
-  }
-
-  .calender, .calender2 {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .box {
-    height: 70px;
-    width: 70px;
-  }
-
-  .text, .sub1 {
-    font-size: 10px;
-  }
-
-  .anchor {
-    font-size: 30px;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-
-  .days {
-    font-size: 40px;
-    gap: 200px;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .box {
-    height: 180px;
-    width: 180px;
-  }
-
-  .text, .sub1 {
-    font-size: 24px;
-  }
-
-  .anchor {
-    font-size: 100px;
-  }
-}

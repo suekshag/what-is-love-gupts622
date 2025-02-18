@@ -87,6 +87,29 @@ img{
   font-weight: 400;
 }
 
+
+@media only screen and (max-width:800px) { 
+  .heading{
+    font-size: 30px;
+  }
+
+  .subhead{
+    font-size: 20px;
+  }
+
+  img{
+    height: 300px;
+    width: 500px;
+  }
+  .para{
+    font-size: 15px;
+    margin: 10px;
+  }
+
+  .button{
+    font-size: 10px;
+  }
+}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
